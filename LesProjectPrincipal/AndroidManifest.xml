@@ -27,20 +27,16 @@
             android:label="@string/title_activity_game" >
         </activity>
         <activity
-            android:name="com.example.lesprojectprincipal.MenuActivity"
-            android:label="@string/title_activity_menu" >
+            android:name="com.example.lesprojectprincipal.Imagem"
+            android:label="@string/title_activity_imagem" >
         </activity>
         <activity
-            android:name="com.example.lesprojectprincipal.ImageGridActivity"
-            android:label="@string/title_activity_image_grid"
-            android:parentActivityName="FragmentActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="FragmentActivity" />
+            android:name="com.example.lesprojectprincipal.Vencedor"
+            android:label="@string/title_activity_vencedor" >
         </activity>
         <activity
-            android:name="com.example.lesprojectprincipal.SliderActivity"
-            android:label="@string/title_activity_slider" >
+            android:name="com.example.lesprojectprincipal.EscolhaDeImagem"
+            android:label="@string/title_activity_escolha_de_imagem" >
         </activity>
     </application>
 
