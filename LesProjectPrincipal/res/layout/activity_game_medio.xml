@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".GameMedioActivity" >
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:onClick="click"
         android:tag="1" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:onClick="click"
         android:tag="2" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         android:onClick="click"
         android:tag="3" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
         android:onClick="click"
         android:tag="4" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton04"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         android:onClick="click"
         android:tag="5" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
         android:onClick="click"
         android:tag="6" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton06"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         android:onClick="click"
         android:tag="7" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton07"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
         android:onClick="click"
         android:tag="8" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton08"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         android:onClick="click"
         android:tag="9" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton09"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
         android:onClick="click"
         android:tag="10" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -128,16 +128,7 @@
         android:text="Tempo"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Chronometer
-        android:id="@+id/chronometer1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView1"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_toRightOf="@+id/imageButton1"
-        android:text="Chronometer" />
-
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -147,7 +138,7 @@
         android:src="@drawable/ic_launcher"
         android:tag="14" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -157,7 +148,7 @@
         android:src="@drawable/ic_launcher"
         android:tag="15" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -167,7 +158,7 @@
         android:src="@drawable/ic_launcher"
         android:tag="16" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -177,7 +168,7 @@
         android:src="@drawable/ic_launcher"
         android:tag="13" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -187,7 +178,7 @@
         android:src="@drawable/ic_launcher"
         android:tag="11" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ImageButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -196,6 +187,14 @@
         android:onClick="click"
         android:src="@drawable/ic_launcher"
         android:tag="12" />
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ImageButton01"
+        android:layout_alignTop="@+id/textView1"
+        android:text="Chronometer" />
     
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

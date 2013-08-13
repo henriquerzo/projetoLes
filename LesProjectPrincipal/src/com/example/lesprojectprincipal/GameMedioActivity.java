@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class GameMedioActivity extends Activity {
 
@@ -37,24 +38,24 @@ public class GameMedioActivity extends Activity {
 	public Bitmap[] splitBitmap(Bitmap picture) {
 
 		Bitmap scaledBitmap = Bitmap
-				.createScaledBitmap(picture, 240, 240, true);
+				.createScaledBitmap(picture, 180, 180, true);
 		Bitmap[] imgs = new Bitmap[17];
-		imgs[1] = Bitmap.createBitmap(scaledBitmap, 0, 0, 60, 60);
-		imgs[2] = Bitmap.createBitmap(scaledBitmap, 60, 0, 60, 60);
-		imgs[3] = Bitmap.createBitmap(scaledBitmap, 120, 0, 60, 60);
-		imgs[4] = Bitmap.createBitmap(scaledBitmap, 180, 0, 60, 60);
-		imgs[5] = Bitmap.createBitmap(scaledBitmap, 0, 60, 60, 60);
-		imgs[6] = Bitmap.createBitmap(scaledBitmap, 60, 60, 60, 60);
-		imgs[7] = Bitmap.createBitmap(scaledBitmap, 120, 60, 60, 60);
-		imgs[8] = Bitmap.createBitmap(scaledBitmap, 180, 60, 60, 60);
-		imgs[9] = Bitmap.createBitmap(scaledBitmap, 0, 120, 60, 60);
-		imgs[10] = Bitmap.createBitmap(scaledBitmap, 60, 120, 60, 60);
-		imgs[11] = Bitmap.createBitmap(scaledBitmap, 120, 120, 60, 60);
-		imgs[12] = Bitmap.createBitmap(scaledBitmap, 180, 120, 60, 60);
-		imgs[13] = Bitmap.createBitmap(scaledBitmap, 0, 180, 60, 60);
-		imgs[14] = Bitmap.createBitmap(scaledBitmap, 60, 180, 60, 60);
-		imgs[15] = Bitmap.createBitmap(scaledBitmap, 120, 180, 60, 60);
-		imgs[16] = Bitmap.createBitmap(scaledBitmap, 180, 180, 60, 60);
+		imgs[1] = Bitmap.createBitmap(scaledBitmap, 0, 0, 45, 45);
+		imgs[2] = Bitmap.createBitmap(scaledBitmap, 45, 0, 45, 45);
+		imgs[3] = Bitmap.createBitmap(scaledBitmap, 90, 0, 45, 45);
+		imgs[4] = Bitmap.createBitmap(scaledBitmap, 135, 0, 45, 45);
+		imgs[5] = Bitmap.createBitmap(scaledBitmap, 0, 45, 45, 45);
+		imgs[6] = Bitmap.createBitmap(scaledBitmap, 45, 45, 45, 45);
+		imgs[7] = Bitmap.createBitmap(scaledBitmap, 90, 45, 45, 45);
+		imgs[8] = Bitmap.createBitmap(scaledBitmap, 135, 45, 45, 45);
+		imgs[9] = Bitmap.createBitmap(scaledBitmap, 0, 90, 45, 45);
+		imgs[10] = Bitmap.createBitmap(scaledBitmap, 45, 90, 45, 45);
+		imgs[11] = Bitmap.createBitmap(scaledBitmap, 90, 90, 45, 45);
+		imgs[12] = Bitmap.createBitmap(scaledBitmap, 135, 90, 45, 45);
+		imgs[13] = Bitmap.createBitmap(scaledBitmap, 0, 135, 45, 45);
+		imgs[14] = Bitmap.createBitmap(scaledBitmap, 45, 135, 45, 45);
+		imgs[15] = Bitmap.createBitmap(scaledBitmap, 90, 135, 45, 45);
+		imgs[16] = Bitmap.createBitmap(scaledBitmap, 135, 135, 45, 45);
 		return imgs;
 
 	}
@@ -69,7 +70,7 @@ public class GameMedioActivity extends Activity {
 
 		Bitmap foto2 = BitmapFactory.decodeResource(getResources(),
 				R.drawable.preto);
-		foto2 = Bitmap.createScaledBitmap(foto2, 60, 60, true);
+		foto2 = Bitmap.createScaledBitmap(foto2, 45, 45, true);
 		Bitmap[] pedacos = splitBitmap(foto);
 		int[][] campo = MatrizGrau4.getInstance().getCampo();
 		for (int i = 0; i < 4; i++) {
@@ -116,6 +117,7 @@ public class GameMedioActivity extends Activity {
 	public void click(View v){
 		int botao = Integer.parseInt((String)v.getTag());
 		MatrizGrau4 m = MatrizGrau4.getInstance();
+		
 		if(botao == 1){
 			if(m.movimentar(0, 0)){
 				reconfigurar();

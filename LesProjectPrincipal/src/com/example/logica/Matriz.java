@@ -1,5 +1,8 @@
 package com.example.logica;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 public class Matriz {
 
 	private static Matriz matriz;
@@ -16,11 +19,25 @@ public class Matriz {
 	
 	protected Matriz(){
 		
-			campo = new int[][] {{2,4,3},{1,6,8},{7,5,0}};
+			campo = novoCampo();
 
 	}
 	
 	
+	public int[][] novoCampo(){
+		
+		
+		ArrayList<int[][]> campos = new ArrayList<int[][]>();
+		
+		campos.add(new int[][] {{2,4,3},{1,6,8},{7,5,0}});
+		campos.add(new int[][] {{2,3,4},{1,8,6},{0,7,5}});
+		campos.add(new int[][] {{4,3,2},{6,8,1},{5,7,0}});
+		campos.add(new int[][] {{1,2,3},{4,5,6},{7,0,8}});
+		campos.add(new int[][] {{3,1,2},{7,5,6},{4,8,0}});
+		
+		Random random = new Random();
+		return campos.get(random.nextInt(campos.size()));
+	}
 
 	public boolean movimentar(int posicaoX, int posicaoY){
 		if(campo[posicaoX][posicaoY]==0){
@@ -139,7 +156,7 @@ public class Matriz {
 	}
 	
 	public void reset(){
-		campo = new int[][] {{2,4,3},{1,6,8},{7,5,0}};
+		campo = novoCampo();
 	}
 	
 	public boolean completo(){

@@ -83,12 +83,12 @@ public final class R {
         public static final int ImageView23=0x7f08002d;
         public static final int ImageView24=0x7f08002e;
         public static final int ImageView25=0x7f08002f;
-        public static final int action_settings=0x7f08003b;
-        public static final int button1=0x7f080016;
+        public static final int action_settings=0x7f08003c;
+        public static final int button1=0x7f080015;
         public static final int button2=0x7f080038;
         public static final int button3=0x7f080037;
         public static final int checkBox1=0x7f080039;
-        public static final int chronometer1=0x7f080015;
+        public static final int chronometer1=0x7f080016;
         public static final int facil=0x7f08003a;
         public static final int gallery1=0x7f08000c;
         public static final int ic_menu_camera=0x7f080008;
@@ -100,6 +100,7 @@ public final class R {
         public static final int imageButton6=0x7f080007;
         public static final int imageButton7=0x7f08000a;
         public static final int imageView1=0x7f080000;
+        public static final int scrollView1=0x7f08003b;
         public static final int textView1=0x7f080001;
         public static final int textView2=0x7f080009;
         public static final int textView3=0x7f08000b;

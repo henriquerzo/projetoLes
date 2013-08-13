@@ -25,12 +25,17 @@ public class CameraActivity extends Activity {
 	File _dir;
 	
 	private String selectedImagePath;
+	
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera);
 
+		Bundle extras = getIntent().getExtras();
+		
+		
 		takePicture();
 	}
 
