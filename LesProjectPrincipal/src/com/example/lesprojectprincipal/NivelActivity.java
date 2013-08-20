@@ -30,5 +30,9 @@ public class NivelActivity extends Activity {
 		
 		startActivity(intent);
 	}
-
+	public void back(View v) {
+		Intent intent = new Intent();
+		setResult(RESULT_OK, intent);
+		finish();
+	}
 }

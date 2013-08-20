@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="bottom"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -10,19 +11,19 @@
 
     <ImageView
         android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/ic_launcher"
         android:onClick="click"
         android:tag="1" />
 
     <ImageView
         android:id="@+id/ImageButton01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/imageButton1"
         android:layout_toRightOf="@+id/imageButton1"
         android:src="@drawable/ic_launcher"
@@ -31,8 +32,8 @@
 
     <ImageView
         android:id="@+id/ImageButton02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton01"
         android:layout_toRightOf="@+id/ImageButton01"
         android:src="@drawable/ic_launcher"
@@ -41,8 +42,8 @@
 
     <ImageView
         android:id="@+id/ImageButton03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton02"
         android:layout_toRightOf="@+id/ImageButton02"
         android:src="@drawable/ic_launcher"
@@ -51,8 +52,8 @@
 
     <ImageView
         android:id="@+id/ImageButton04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/imageButton1"
         android:layout_toLeftOf="@+id/ImageButton01"
         android:src="@drawable/ic_launcher"
@@ -61,8 +62,8 @@
 
     <ImageView
         android:id="@+id/ImageButton05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton04"
         android:layout_toLeftOf="@+id/ImageButton02"
         android:src="@drawable/ic_launcher"
@@ -71,8 +72,8 @@
 
     <ImageView
         android:id="@+id/ImageButton06"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton05"
         android:layout_toLeftOf="@+id/ImageButton03"
         android:src="@drawable/ic_launcher"
@@ -81,8 +82,8 @@
 
     <ImageView
         android:id="@+id/ImageButton07"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton06"
         android:layout_toRightOf="@+id/ImageButton06"
         android:src="@drawable/ic_launcher"
@@ -91,8 +92,8 @@
 
     <ImageView
         android:id="@+id/ImageButton08"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/ImageButton04"
         android:layout_toLeftOf="@+id/ImageButton05"
         android:src="@drawable/ic_launcher"
@@ -101,8 +102,8 @@
 
     <ImageView
         android:id="@+id/ImageButton09"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/ImageButton05"
         android:layout_toLeftOf="@+id/ImageButton06"
         android:src="@drawable/ic_launcher"
@@ -110,28 +111,9 @@
         android:tag="10" />
 
     <ImageView
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/ImageButton14"
-        android:src="@drawable/refresh"
-        android:onClick="reiniciar"
-        android:text="Reiniciar" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageButton1"
-        android:layout_alignParentTop="true"
-        android:text="Tempo"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <ImageView
         android:id="@+id/ImageButton13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignTop="@+id/ImageButton12"
         android:layout_toLeftOf="@+id/ImageButton14"
         android:onClick="click"
@@ -140,8 +122,8 @@
 
     <ImageView
         android:id="@+id/ImageButton14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/ImageButton10"
         android:layout_toLeftOf="@+id/ImageButton11"
         android:onClick="click"
@@ -150,8 +132,8 @@
 
     <ImageView
         android:id="@+id/ImageButton15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignLeft="@+id/ImageButton11"
         android:layout_alignTop="@+id/ImageButton14"
         android:onClick="click"
@@ -160,8 +142,8 @@
 
     <ImageView
         android:id="@+id/ImageButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/ImageButton08"
         android:layout_toLeftOf="@+id/ImageButton09"
         android:onClick="click"
@@ -170,8 +152,8 @@
 
     <ImageView
         android:id="@+id/ImageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_below="@+id/ImageButton06"
         android:layout_toLeftOf="@+id/ImageButton07"
         android:onClick="click"
@@ -180,21 +162,42 @@
 
     <ImageView
         android:id="@+id/ImageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70px"
+        android:layout_height="70px"
         android:layout_alignLeft="@+id/ImageButton07"
         android:layout_below="@+id/ImageButton07"
         android:onClick="click"
         android:src="@drawable/ic_launcher"
         android:tag="12" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageButton12"
+        android:layout_alignParentBottom="true"
+        android:text="Tempo:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="26px" />
+
     <Chronometer
         android:id="@+id/chronometer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/ImageButton01"
-        android:layout_alignTop="@+id/textView1"
-        android:text="Chronometer" />
+        android:layout_alignLeft="@+id/ImageButton14"
+        android:layout_alignParentBottom="true"
+        android:text="Chronometer"
+        android:textSize="26px" />
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="42px"
+        android:layout_height="42px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ImageButton15"
+        android:onClick="reiniciar"
+        android:src="@drawable/refresh"
+        android:text="Reiniciar" />
     
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -10,20 +10,20 @@
 
     <ImageView
         android:id="@+id/ImageView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="78dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/ic_launcher" 
         android:onClick="click"
         android:tag="1" />
 
     <ImageView
         android:id="@+id/ImageView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView02"
         android:layout_toRightOf="@+id/ImageView02"
         android:src="@drawable/ic_launcher" 
@@ -32,8 +32,8 @@
 
     <ImageView
         android:id="@+id/ImageView03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView01"
         android:layout_toRightOf="@+id/ImageView01"
         android:src="@drawable/ic_launcher" 
@@ -42,8 +42,8 @@
 
     <ImageView
         android:id="@+id/ImageView04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView03"
         android:layout_toRightOf="@+id/ImageView03"
         android:src="@drawable/ic_launcher" 
@@ -52,8 +52,8 @@
 
     <ImageView
         android:id="@+id/ImageView05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView04"
         android:layout_toRightOf="@+id/ImageView04"
         android:src="@drawable/ic_launcher" 
@@ -62,8 +62,8 @@
 
     <ImageView
         android:id="@+id/ImageView06"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView02"
         android:layout_toLeftOf="@+id/ImageView01"
         android:src="@drawable/ic_launcher" 
@@ -72,8 +72,8 @@
 
     <ImageView
         android:id="@+id/ImageView07"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView06"
         android:layout_toRightOf="@+id/ImageView06"
         android:src="@drawable/ic_launcher" 
@@ -82,8 +82,8 @@
 
     <ImageView
         android:id="@+id/ImageView08"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView07"
         android:layout_toLeftOf="@+id/ImageView04"
         android:src="@drawable/ic_launcher" 
@@ -92,8 +92,8 @@
 
     <ImageView
         android:id="@+id/ImageView09"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView08"
         android:layout_toLeftOf="@+id/ImageView05"
         android:src="@drawable/ic_launcher" 
@@ -102,8 +102,8 @@
 
     <ImageView
         android:id="@+id/ImageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView09"
         android:layout_toRightOf="@+id/ImageView09"
         android:src="@drawable/ic_launcher" 
@@ -112,8 +112,8 @@
 
     <ImageView
         android:id="@+id/ImageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView06"
         android:layout_toLeftOf="@+id/ImageView07"
         android:src="@drawable/ic_launcher" 
@@ -122,8 +122,8 @@
 
     <ImageView
         android:id="@+id/ImageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView11"
         android:layout_toLeftOf="@+id/ImageView07"
         android:src="@drawable/ic_launcher" 
@@ -132,8 +132,8 @@
 
     <ImageView
         android:id="@+id/ImageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView12"
         android:layout_toLeftOf="@+id/ImageView07"
         android:src="@drawable/ic_launcher" 
@@ -142,8 +142,8 @@
 
     <ImageView
         android:id="@+id/ImageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView07"
         android:layout_toLeftOf="@+id/ImageView08"
         android:src="@drawable/ic_launcher" 
@@ -152,8 +152,8 @@
 
     <ImageView
         android:id="@+id/ImageView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_above="@+id/ImageView12"
         android:layout_toLeftOf="@+id/ImageView09"
         android:src="@drawable/ic_launcher" 
@@ -162,8 +162,8 @@
 
     <ImageView
         android:id="@+id/ImageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_above="@+id/ImageView12"
         android:layout_toLeftOf="@+id/ImageView10"
         android:src="@drawable/ic_launcher" 
@@ -172,8 +172,8 @@
 
     <ImageView
         android:id="@+id/ImageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView16"
         android:layout_toRightOf="@+id/ImageView16"
         android:src="@drawable/ic_launcher" 
@@ -182,8 +182,8 @@
 
     <ImageView
         android:id="@+id/ImageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView14"
         android:layout_toLeftOf="@+id/ImageView15"
         android:src="@drawable/ic_launcher" 
@@ -192,8 +192,8 @@
 
     <ImageView
         android:id="@+id/ImageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_above="@+id/ImageView13"
         android:layout_toLeftOf="@+id/ImageView16"
         android:src="@drawable/ic_launcher" 
@@ -202,8 +202,8 @@
 
     <ImageView
         android:id="@+id/ImageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_above="@+id/ImageView13"
         android:layout_toLeftOf="@+id/ImageView17"
         android:src="@drawable/ic_launcher" 
@@ -212,8 +212,8 @@
 
     <ImageView
         android:id="@+id/ImageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_above="@+id/ImageView13"
         android:layout_toRightOf="@+id/ImageView20"
         android:src="@drawable/ic_launcher" 
@@ -222,8 +222,8 @@
 
     <ImageView
         android:id="@+id/ImageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_below="@+id/ImageView18"
         android:layout_toLeftOf="@+id/ImageView19"
         android:src="@drawable/ic_launcher" 
@@ -232,8 +232,8 @@
 
     <ImageView
         android:id="@+id/ImageView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView22"
         android:layout_toLeftOf="@+id/ImageView20"
         android:src="@drawable/ic_launcher" 
@@ -242,8 +242,8 @@
 
     <ImageView
         android:id="@+id/ImageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView23"
         android:layout_toLeftOf="@+id/ImageView21"
         android:src="@drawable/ic_launcher" 
@@ -252,8 +252,8 @@
 
     <ImageView
         android:id="@+id/ImageView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57px"
+        android:layout_height="60px"
         android:layout_alignTop="@+id/ImageView24"
         android:layout_toRightOf="@+id/ImageView24"
         android:src="@drawable/ic_launcher" 
@@ -262,32 +262,31 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="42px"
+        android:layout_height="42px"
+        android:layout_alignLeft="@+id/ImageView25"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/ImageView25"
-        android:layout_marginBottom="14dp"
-        android:src="@drawable/refresh" 
-        android:onClick="reiniciar"/>
+        android:onClick="reiniciar"
+        android:src="@drawable/refresh" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/ImageView01"
-        android:layout_alignRight="@+id/ImageView02"
-        android:layout_marginBottom="36dp"
-        android:text="Tempo"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:layout_alignBaseline="@+id/chronometer1"
+        android:layout_alignBottom="@+id/chronometer1"
+        android:layout_alignLeft="@+id/ImageView13"
+        android:text="Tempo:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="26px" />
 
     <Chronometer
         android:id="@+id/chronometer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_alignLeft="@+id/ImageView01"
-        android:layout_alignRight="@+id/ImageView01"
-        android:layout_marginLeft="14dp"
-        android:text="Chronometer" />
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignRight="@+id/ImageView23"
+        android:text="Chronometer"
+        android:textSize="26px" />
 
 </RelativeLayout>

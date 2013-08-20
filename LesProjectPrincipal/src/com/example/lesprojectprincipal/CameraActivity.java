@@ -14,7 +14,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 import android.view.Menu;
-import android.view.View;
 
 public class CameraActivity extends Activity {
 
@@ -25,17 +24,12 @@ public class CameraActivity extends Activity {
 	File _dir;
 	
 	private String selectedImagePath;
-	
-	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera);
 
-		Bundle extras = getIntent().getExtras();
-		
-		
 		takePicture();
 	}
 
@@ -77,7 +71,7 @@ public class CameraActivity extends Activity {
 				
 		//selectedImagePath = getRealPathFromURI(contentUri);
 		//showMessage("Teste de path", _file.getAbsolutePath()+"");
-		this.finish();
+		
 		Intent intent = new Intent(this, EscolhaDeImagem.class);
 		
 		//TODO
@@ -121,12 +115,5 @@ public class CameraActivity extends Activity {
 		});
 		// Set the Icon for the Dialog
 		alertDialog.show();
-	}
-	
-
-	public void back(View v) {
-		Intent intent = new Intent();
-		setResult(RESULT_OK, intent);
-		finish();
 	}
 }

@@ -14,5 +14,6 @@
     <string name="title_activity_game_dificil">GameDificilActivity</string>
     <string name="title_activity_teste_tela">TesteTela</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_pontuacao">PontuacaoActivity</string>
 
 </resources>

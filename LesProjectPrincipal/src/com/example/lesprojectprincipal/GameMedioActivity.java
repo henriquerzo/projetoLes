@@ -22,7 +22,8 @@ public class GameMedioActivity extends Activity {
 	ImageView imagem;
 	int local;
 	String local2 = "";
-
+	Chronometer cr;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -31,7 +32,7 @@ public class GameMedioActivity extends Activity {
 		local = getIntent().getExtras().getInt("imagem");
 		local2 = getIntent().getExtras().getString("imagem");
 		reconfigurar();
-		Chronometer cr = (Chronometer) findViewById(R.id.chronometer1);
+		cr = (Chronometer) findViewById(R.id.chronometer1);
 		cr.start();
 	}
 
@@ -217,7 +218,10 @@ public class GameMedioActivity extends Activity {
 	}
 
 	private void venceu() {
-		Intent intent = new Intent(this, Vencedor.class);
+		cr.stop();
+    	Intent intent = new Intent(this, Vencedor.class);
+    	intent.putExtra("tempo", (SystemClock.elapsedRealtime()-cr.getBase())/1000);
+    	intent.putExtra("level", 4);
 		startActivity(intent);
 		finish();
 	}

@@ -2,18 +2,37 @@ package com.example.logica;
 
 import java.util.ArrayList;
 
+//import android.view.View;
+import android.widget.TextView;
+
 public class HistoricoPontuacao {
+	
+	private static HistoricoPontuacao historico;
 
 	private ArrayList<Pontuacao> pontuacoes;
+	//private ArrayList<TextView> textViewPontuacoes;
 
-	public HistoricoPontuacao() {
-		this.pontuacoes = new ArrayList<Pontuacao>();
+	public static HistoricoPontuacao getInstance() {
+		if(historico == null){
+			historico = new HistoricoPontuacao();
+			
+		}
+		return historico;
 	}
 
-	public void addPontuacao(Pontuacao p) {
+	
+	protected HistoricoPontuacao(){
+		pontuacoes = new ArrayList<Pontuacao>();
+		//textViewPontuacoes = new ArrayList<TextView>();
+	}
+	
+
+	public void addPontuacao(Pontuacao p, TextView pnt) {
 		pontuacoes.add(p);
+		//textViewPontuacoes.add(pnt);
 	}
 
+	//verificar
 	public void removePontuacao(Pontuacao p) {
 		for (Pontuacao pont : pontuacoes) {
 			if (pont.getPontos() == p.getPontos()) {
@@ -31,5 +50,12 @@ public class HistoricoPontuacao {
 		pontuacoes = novoP;
 
 	}
+
+
+	/*public ArrayList<TextView> gettexViewPontuacoes() {
+		
+		return textViewPontuacoes;
+	}*/
+
 
 }

@@ -38,9 +38,10 @@ public final class R {
         public static final int minitigre=0x7f02000e;
         public static final int preto=0x7f02000f;
         public static final int refresh=0x7f020010;
-        public static final int sound=0x7f020011;
-        public static final int sp=0x7f020012;
-        public static final int tigre=0x7f020013;
+        public static final int smile=0x7f020011;
+        public static final int sound=0x7f020012;
+        public static final int sp=0x7f020013;
+        public static final int tigre=0x7f020014;
     }
     public static final class id {
         public static final int ImageButton01=0x7f08000d;
@@ -54,9 +55,9 @@ public final class R {
         public static final int ImageButton09=0x7f080030;
         public static final int ImageButton10=0x7f080034;
         public static final int ImageButton11=0x7f080035;
-        public static final int ImageButton12=0x7f080033;
-        public static final int ImageButton13=0x7f080032;
-        public static final int ImageButton14=0x7f080031;
+        public static final int ImageButton12=0x7f080032;
+        public static final int ImageButton13=0x7f080031;
+        public static final int ImageButton14=0x7f080033;
         public static final int ImageButton15=0x7f080036;
         public static final int ImageView01=0x7f080018;
         public static final int ImageView02=0x7f080017;
@@ -83,12 +84,12 @@ public final class R {
         public static final int ImageView23=0x7f08002d;
         public static final int ImageView24=0x7f08002e;
         public static final int ImageView25=0x7f08002f;
-        public static final int action_settings=0x7f08003c;
-        public static final int button1=0x7f080015;
+        public static final int action_settings=0x7f08003e;
+        public static final int button1=0x7f080016;
         public static final int button2=0x7f080038;
         public static final int button3=0x7f080037;
         public static final int checkBox1=0x7f080039;
-        public static final int chronometer1=0x7f080016;
+        public static final int chronometer1=0x7f080015;
         public static final int facil=0x7f08003a;
         public static final int gallery1=0x7f08000c;
         public static final int ic_menu_camera=0x7f080008;
@@ -100,7 +101,9 @@ public final class R {
         public static final int imageButton6=0x7f080007;
         public static final int imageButton7=0x7f08000a;
         public static final int imageView1=0x7f080000;
-        public static final int scrollView1=0x7f08003b;
+        public static final int scrollView1=0x7f08003c;
+        public static final int scrollViewPontuacao=0x7f08003b;
+        public static final int textTutorial=0x7f08003d;
         public static final int textView1=0x7f080001;
         public static final int textView2=0x7f080009;
         public static final int textView3=0x7f08000b;
@@ -113,8 +116,9 @@ public final class R {
         public static final int activity_game_medio=0x7f030004;
         public static final int activity_main=0x7f030005;
         public static final int activity_nivel=0x7f030006;
-        public static final int activity_tutorial=0x7f030007;
-        public static final int activity_vencedor=0x7f030008;
+        public static final int activity_pontuacao=0x7f030007;
+        public static final int activity_tutorial=0x7f030008;
+        public static final int activity_vencedor=0x7f030009;
     }
     public static final class menu {
         public static final int camera=0x7f070000;
@@ -125,9 +129,10 @@ public final class R {
         public static final int imagem=0x7f070005;
         public static final int main=0x7f070006;
         public static final int nivel=0x7f070007;
-        public static final int teste_tela=0x7f070008;
-        public static final int tutorial=0x7f070009;
-        public static final int vencedor=0x7f07000a;
+        public static final int pontuacao=0x7f070008;
+        public static final int teste_tela=0x7f070009;
+        public static final int tutorial=0x7f07000a;
+        public static final int vencedor=0x7f07000b;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -140,6 +145,7 @@ public final class R {
         public static final int title_activity_game_medio=0x7f050009;
         public static final int title_activity_imagem=0x7f050004;
         public static final int title_activity_nivel=0x7f050008;
+        public static final int title_activity_pontuacao=0x7f05000d;
         public static final int title_activity_teste_tela=0x7f05000b;
         public static final int title_activity_tutorial=0x7f05000c;
         public static final int title_activity_vencedor=0x7f050005;

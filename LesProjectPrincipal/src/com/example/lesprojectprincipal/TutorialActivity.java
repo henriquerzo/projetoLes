@@ -18,6 +18,14 @@ public class TutorialActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tutorial);
+		
+		TextView textoTutorial = (TextView) findViewById(R.id.textTutorial);
+		
+		textoTutorial.setText("O jogo consiste num puzzle onde o jogador deverá " +
+				"montá-lo movimentando as peças horizontalmente e verticalmente. " +
+				"O jogador vence quando montar o puzzle corretamente.");
+		
+		
 	}
 
 	@Override

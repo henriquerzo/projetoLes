@@ -81,4 +81,8 @@ public class MainActivity extends Activity {
 		
 	}
 	
+	public void pontuacao(View view){
+		Intent intent = new Intent(this, PontuacaoActivity.class);
+		startActivity(intent);
+	}
 }

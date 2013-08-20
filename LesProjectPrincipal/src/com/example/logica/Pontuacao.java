@@ -1,5 +1,7 @@
 package com.example.logica;
 
+
+
 public class Pontuacao {
 
 	public int getPontos() {
@@ -43,15 +45,13 @@ public class Pontuacao {
 	private int nivel;
 
 	public Pontuacao(int tempo, int nivel) {
-
-		this.pontos = pontos;
+		
 		this.tempo = tempo;
 		this.nivel = nivel;
 		
 	}
 	
-	
-	
+
 	public int calculaPontos(){
 		if(nivel == 3){
 			pontos = 300/(tempo);
