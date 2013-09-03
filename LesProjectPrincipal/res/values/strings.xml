@@ -15,5 +15,6 @@
     <string name="title_activity_teste_tela">TesteTela</string>
     <string name="title_activity_tutorial">TutorialActivity</string>
     <string name="title_activity_pontuacao">PontuacaoActivity</string>
+    <string name="app_id">210966245732909</string>
 
 </resources>

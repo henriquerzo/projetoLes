@@ -1,15 +1,17 @@
 package com.example.lesprojectprincipal;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import com.example.logica.HistoricoPontuacao;
-import com.example.logica.Pontuacao;
 
+import com.example.logica.Pontuacao;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -21,16 +23,27 @@ public class PontuacaoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pontuacao);
 		
-		/*HistoricoPontuacao historicoP = HistoricoPontuacao.getInstance();
+		int[] p = new int[5];
 		
-		ScrollView scrollPontos = (ScrollView) findViewById(R.id.scrollViewPontuacao);
+		try {
+		    BufferedReader inputReader = new BufferedReader(new InputStreamReader(openFileInput("score")));                
+		    for(int i=0;i<5;i++){
+		        p[i] = Integer.parseInt(inputReader.readLine());	
+		    }
+		    inputReader.close();
+		} catch (Exception e) {
+		}
 		
-		for(TextView txV : historicoP.gettexViewPontuacoes()){
-			scrollPontos.addView(txV);
-			
-		}*/
-	
-		
+		TextView scores = (TextView)findViewById(R.id.textView3);
+		scores.setText(p[0]+"");
+		scores = (TextView)findViewById(R.id.textView5);
+		scores.setText(p[1]+"");
+		scores = (TextView)findViewById(R.id.textView7);
+		scores.setText(p[2]+"");
+		scores = (TextView)findViewById(R.id.textView9);
+		scores.setText(p[3]+"");
+		scores = (TextView)findViewById(R.id.textView11);
+		scores.setText(p[4]+"");	
 	}
 
 	@Override

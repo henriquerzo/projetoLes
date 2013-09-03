@@ -85,4 +85,9 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, PontuacaoActivity.class);
 		startActivity(intent);
 	}
+	
+	public void logarFace(View view) {
+		Intent intent = new Intent(this, LogarFacebook.class);
+		startActivity(intent);
+	}
 }
